@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="160f6623-7eae-4b60-8b02-f65f01cde0da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/GroupObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/TestBase.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/test/NewThe404NotFound$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/test/NewThe404NotFound$2.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/test/NewThe404NotFound.class" afterPath="$PROJECT_DIR$/target/test-classes/test/NewThe404NotFound.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test/NewThe404NotFound.java" afterPath="$PROJECT_DIR$/src/test/java/test/NewThe404NotFound.java" />
@@ -27,25 +31,53 @@
       <file leaf-file-name="NewThe404NotFound.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/NewThe404NotFound.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3570">
-              <caret line="284" column="32" lean-forward="false" selection-start-line="284" selection-start-column="32" selection-end-line="284" selection-end-column="32" />
+            <state relative-caret-position="102">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7879#7880#0" expanded="true" />
-                <element signature="e#7968#7969#0" expanded="true" />
-                <element signature="e#9049#9050#0" expanded="true" />
-                <element signature="e#9116#9117#0" expanded="true" />
-                <element signature="e#9369#9370#0" expanded="true" />
-                <element signature="e#9428#9429#0" expanded="true" />
-                <element signature="e#10245#10246#0" expanded="true" />
-                <element signature="e#10299#10300#0" expanded="true" />
-                <element signature="e#11328#11329#0" expanded="true" />
-                <element signature="e#11411#11412#0" expanded="true" />
-                <element signature="e#12316#12317#0" expanded="true" />
-                <element signature="e#12367#12368#0" expanded="true" />
-                <element signature="e#13104#13105#0" expanded="true" />
-                <element signature="e#13171#13172#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2605">
+              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1497#1747#0" expanded="true" />
+                <element signature="e#1746#1747#0" expanded="true" />
+                <element signature="e#1832#2243#0" expanded="true" />
+                <element signature="e#2242#2243#0" expanded="true" />
+                <element signature="e#2350#2351#0" expanded="true" />
+                <element signature="e#2395#2396#0" expanded="true" />
+                <element signature="e#2436#2437#0" expanded="true" />
+                <element signature="e#2525#2526#0" expanded="true" />
+                <element signature="e#3618#3619#0" expanded="true" />
+                <element signature="e#3685#3686#0" expanded="true" />
+                <element signature="e#3968#3969#0" expanded="true" />
+                <element signature="e#4027#4028#0" expanded="true" />
+                <element signature="e#4848#4849#0" expanded="true" />
+                <element signature="e#4902#4903#0" expanded="true" />
+                <element signature="e#5941#5942#0" expanded="true" />
+                <element signature="e#6024#6025#0" expanded="true" />
+                <element signature="e#6939#6940#0" expanded="true" />
+                <element signature="e#6990#6991#0" expanded="true" />
+                <element signature="e#7735#7736#0" expanded="true" />
+                <element signature="e#7802#7803#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/GroupObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,6 +151,7 @@
         <option value="$PROJECT_DIR$/src/main/java/loadJQuery/waitForJSandJQueryToLoad.java" />
         <option value="$PROJECT_DIR$/src/test/java/VehiclePerPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/NewThe404NotFound.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/GroupObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/NewThe404NotFound.java" />
       </list>
     </option>
@@ -138,6 +171,9 @@
     <option name="y" value="1" />
     <option name="width" value="1364" />
     <option name="height" value="726" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -402,18 +438,8 @@
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Firsova\IdeaProjects\autotests1\src\test\resourses" />
-      <recent name="C:\Users\Firsova\IdeaProjects\autotests1\src\driver\firefox" />
-      <recent name="C:\Users\Firsova\IdeaProjects\autotests1\src" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="pack1" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pack2" />
-      <recent name="pack1" />
-      <recent name="Users.java" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Firsova all documents\Documentation\Autotesting\IdeaProjects\LastChangesProject\src\main\resources\drivers" />
@@ -422,8 +448,18 @@
       <recent name="C:\Users\Firsova\IdeaProjects\autotests1\src\driver\ie" />
       <recent name="C:\Users\Firsova\IdeaProjects\autotests1\src\driver\chrome-win" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pack2" />
+      <recent name="pack1" />
+      <recent name="Users.java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Firsova\IdeaProjects\autotests1\src\test\resourses" />
+      <recent name="C:\Users\Firsova\IdeaProjects\autotests1\src\driver\firefox" />
+      <recent name="C:\Users\Firsova\IdeaProjects\autotests1\src" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.NewThe404NotFound (2)">
+  <component name="RunManager" selected="TestNG.NewThe404NotFound">
     <configuration default="false" name="The404NotFound.userEditorMAP2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="autotests1" />
@@ -536,7 +572,7 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="NewThe404NotFound (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="NewThe404NotFound" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -857,11 +893,11 @@
       <item index="3" class="java.lang.String" itemvalue="TestNG.VehiclePerPage" />
       <item index="4" class="java.lang.String" itemvalue="TestNG.NewThe404NotFound (1)" />
       <item index="5" class="java.lang.String" itemvalue="TestNG.D:/Firsova all documents/Documentation/Autotesting/IdeaProjects/LastChangesProject/src/test/resourses/sute5.xml" />
-      <item index="6" class="java.lang.String" itemvalue="TestNG.NewThe404NotFound (2)" />
+      <item index="6" class="java.lang.String" itemvalue="TestNG.NewThe404NotFound" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.NewThe404NotFound (2)" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.NewThe404NotFound" />
         <item index="1" class="java.lang.String" itemvalue="TestNG.NewThe404NotFound (1)" />
         <item index="2" class="java.lang.String" itemvalue="TestNG.D:/Firsova all documents/Documentation/Autotesting/IdeaProjects/LastChangesProject/src/test/resourses/sute5.xml" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.VehiclePerPage" />
@@ -886,11 +922,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NewThe404NotFound_(2) - 2017.02.16 at 12h 24m 51s.xml">
-      <configuration name="NewThe404NotFound (2)" configurationId="TestNG" />
+    <history-entry file="NewThe404NotFound - 2017.02.16 at 16h 47m 19s.xml">
+      <configuration name="NewThe404NotFound" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewThe404NotFound_(2) - 2017.02.16 at 12h 30m 25s.xml">
-      <configuration name="NewThe404NotFound (2)" configurationId="TestNG" />
+    <history-entry file="NewThe404NotFound - 2017.02.16 at 17h 14m 39s.xml">
+      <configuration name="NewThe404NotFound" configurationId="TestNG" />
     </history-entry>
     <history-entry file="NewThe404NotFound_(2) - 2017.02.16 at 14h 16m 29s.xml">
       <configuration name="NewThe404NotFound (2)" configurationId="TestNG" />
@@ -1006,8 +1042,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/pack2/UserEditor.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/testBase.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resourses/suite1.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/testcase/testBase2.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/Page.java" />
@@ -1264,26 +1298,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/NewThe404NotFound.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/GroupObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="284" column="32" lean-forward="false" selection-start-line="284" selection-start-column="32" selection-end-line="284" selection-end-column="32" />
+        <state relative-caret-position="34">
+          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2605">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7879#7880#0" expanded="true" />
-            <element signature="e#7968#7969#0" expanded="true" />
-            <element signature="e#9049#9050#0" expanded="true" />
-            <element signature="e#9116#9117#0" expanded="true" />
-            <element signature="e#9369#9370#0" expanded="true" />
-            <element signature="e#9428#9429#0" expanded="true" />
-            <element signature="e#10245#10246#0" expanded="true" />
-            <element signature="e#10299#10300#0" expanded="true" />
-            <element signature="e#11328#11329#0" expanded="true" />
-            <element signature="e#11411#11412#0" expanded="true" />
-            <element signature="e#12316#12317#0" expanded="true" />
-            <element signature="e#12367#12368#0" expanded="true" />
-            <element signature="e#13104#13105#0" expanded="true" />
-            <element signature="e#13171#13172#0" expanded="true" />
+            <element signature="e#1497#1747#0" expanded="true" />
+            <element signature="e#1746#1747#0" expanded="true" />
+            <element signature="e#1832#2243#0" expanded="true" />
+            <element signature="e#2242#2243#0" expanded="true" />
+            <element signature="e#2350#2351#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
+            <element signature="e#2436#2437#0" expanded="true" />
+            <element signature="e#2525#2526#0" expanded="true" />
+            <element signature="e#3618#3619#0" expanded="true" />
+            <element signature="e#3685#3686#0" expanded="true" />
+            <element signature="e#3968#3969#0" expanded="true" />
+            <element signature="e#4027#4028#0" expanded="true" />
+            <element signature="e#4848#4849#0" expanded="true" />
+            <element signature="e#4902#4903#0" expanded="true" />
+            <element signature="e#5941#5942#0" expanded="true" />
+            <element signature="e#6024#6025#0" expanded="true" />
+            <element signature="e#6939#6940#0" expanded="true" />
+            <element signature="e#6990#6991#0" expanded="true" />
+            <element signature="e#7735#7736#0" expanded="true" />
+            <element signature="e#7802#7803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/NewThe404NotFound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
