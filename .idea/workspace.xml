@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="160f6623-7eae-4b60-8b02-f65f01cde0da" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/test/NewThe404NotFound.class" afterPath="$PROJECT_DIR$/target/test-classes/test/NewThe404NotFound.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test/NewThe404NotFound.java" afterPath="$PROJECT_DIR$/src/test/java/test/NewThe404NotFound.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,10 +27,24 @@
       <file leaf-file-name="NewThe404NotFound.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/NewThe404NotFound.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="400" column="0" lean-forward="true" selection-start-line="400" selection-start-column="0" selection-end-line="400" selection-end-column="0" />
+            <state relative-caret-position="3570">
+              <caret line="284" column="32" lean-forward="false" selection-start-line="284" selection-start-column="32" selection-end-line="284" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#7879#7880#0" expanded="true" />
+                <element signature="e#7968#7969#0" expanded="true" />
+                <element signature="e#9049#9050#0" expanded="true" />
+                <element signature="e#9116#9117#0" expanded="true" />
+                <element signature="e#9369#9370#0" expanded="true" />
+                <element signature="e#9428#9429#0" expanded="true" />
+                <element signature="e#10245#10246#0" expanded="true" />
+                <element signature="e#10299#10300#0" expanded="true" />
+                <element signature="e#11328#11329#0" expanded="true" />
+                <element signature="e#11411#11412#0" expanded="true" />
+                <element signature="e#12316#12317#0" expanded="true" />
+                <element signature="e#12367#12368#0" expanded="true" />
+                <element signature="e#13104#13105#0" expanded="true" />
+                <element signature="e#13171#13172#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -870,35 +886,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NewThe404NotFound_(1) - 2017.02.14 at 15h 46m 01s.xml">
-      <configuration name="NewThe404NotFound (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NewThe404NotFound_(2) - 2017.02.14 at 17h 31m 40s.xml">
+    <history-entry file="NewThe404NotFound_(2) - 2017.02.16 at 12h 24m 51s.xml">
       <configuration name="NewThe404NotFound (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewThe404NotFound_(2) - 2017.02.14 at 17h 46m 12s.xml">
+    <history-entry file="NewThe404NotFound_(2) - 2017.02.16 at 12h 30m 25s.xml">
       <configuration name="NewThe404NotFound (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewThe404NotFound_(2) - 2017.02.14 at 17h 51m 40s.xml">
+    <history-entry file="NewThe404NotFound_(2) - 2017.02.16 at 14h 16m 29s.xml">
       <configuration name="NewThe404NotFound (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewThe404NotFound_(2) - 2017.02.15 at 09h 31m 23s.xml">
+    <history-entry file="NewThe404NotFound_(2) - 2017.02.16 at 14h 22m 13s.xml">
       <configuration name="NewThe404NotFound (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewThe404NotFound_(2) - 2017.02.15 at 09h 43m 45s.xml">
+    <history-entry file="NewThe404NotFound_(2) - 2017.02.16 at 14h 40m 32s.xml">
       <configuration name="NewThe404NotFound (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewThe404NotFound_(2) - 2017.02.15 at 09h 52m 54s.xml">
+    <history-entry file="NewThe404NotFound_(2) - 2017.02.16 at 14h 55m 45s.xml">
       <configuration name="NewThe404NotFound (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewThe404NotFound_(2) - 2017.02.15 at 12h 59m 31s.xml">
+    <history-entry file="NewThe404NotFound_(2) - 2017.02.16 at 15h 01m 03s.xml">
       <configuration name="NewThe404NotFound (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewThe404NotFound_(2) - 2017.02.15 at 13h 03m 09s.xml">
+    <history-entry file="NewThe404NotFound_(2) - 2017.02.16 at 15h 05m 52s.xml">
       <configuration name="NewThe404NotFound (2)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="The404NotFound - 2017.02.10 at 17h 02m 04s.xml">
-      <configuration name="The404NotFound" configurationId="TestNG" />
+    <history-entry file="NewThe404NotFound_(2) - 2017.02.16 at 15h 42m 47s.xml">
+      <configuration name="NewThe404NotFound (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NewThe404NotFound_(2) - 2017.02.16 at 15h 52m 24s.xml">
+      <configuration name="NewThe404NotFound (2)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -924,7 +940,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25653595" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1196319" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21885522" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23400673" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -975,7 +991,7 @@
           <option name="timeStamp" value="269" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="277" />
+      <option name="time" value="278" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
@@ -1250,10 +1266,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/NewThe404NotFound.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="400" column="0" lean-forward="true" selection-start-line="400" selection-start-column="0" selection-end-line="400" selection-end-column="0" />
+        <state relative-caret-position="3570">
+          <caret line="284" column="32" lean-forward="false" selection-start-line="284" selection-start-column="32" selection-end-line="284" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7879#7880#0" expanded="true" />
+            <element signature="e#7968#7969#0" expanded="true" />
+            <element signature="e#9049#9050#0" expanded="true" />
+            <element signature="e#9116#9117#0" expanded="true" />
+            <element signature="e#9369#9370#0" expanded="true" />
+            <element signature="e#9428#9429#0" expanded="true" />
+            <element signature="e#10245#10246#0" expanded="true" />
+            <element signature="e#10299#10300#0" expanded="true" />
+            <element signature="e#11328#11329#0" expanded="true" />
+            <element signature="e#11411#11412#0" expanded="true" />
+            <element signature="e#12316#12317#0" expanded="true" />
+            <element signature="e#12367#12368#0" expanded="true" />
+            <element signature="e#13104#13105#0" expanded="true" />
+            <element signature="e#13171#13172#0" expanded="true" />
           </folding>
         </state>
       </provider>
