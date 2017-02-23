@@ -7,7 +7,7 @@ import org.testng.annotations.*;
 public
 class NewThe404NotFound extends TestBase {
 
-
+//
     @Test (priority = 1)
     public void userEditorMAP2() throws Exception {
         GroupObject validGroup = new GroupObject("sbvu673wrb", "svetlanaf");
