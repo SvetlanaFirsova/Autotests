@@ -13,22 +13,23 @@ public class NavigationHelper extends HelperWithWebDriverBase{
     }
 
     public void logInDms(GroupObject groupObject) {
-        driver.get(manager.getWebDriverHelper().baseUrl + "/dms/login");
+
+        openURL(manager.getWebDriverHelper().baseUrl + "/dms/login");
         type(groupObject.getPassword(), "password");
         type(groupObject.getLogin(), "login");
         manager.getWebDriverHelper().clickLoginButtonInDMS();
     }
 
     public void openSettingsPage() {
-        driver.get(manager.getWebDriverHelper().baseUrl + "/dms/settings/");
+        openURL(manager.getWebDriverHelper().baseUrl + "/dms/settings/");
     }
 
     public void openURLOfMAP2() {
-        driver.get("http://www.svetlana.ixloo.com/dms/tools/make_a_page_2");
+        openURL("http://www.svetlana.ixloo.com/dms/tools/make_a_page_2");
     }
 
     public void openIncorrectURL() {
-        driver.get(manager.getWebDriverHelper().dwsUrl + "/cars112233/");
+        openURL(manager.getWebDriverHelper().dwsUrl + "/cars112233/");
     }
 
 
