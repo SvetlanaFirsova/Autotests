@@ -1,4 +1,4 @@
-package test;
+package com.examples.tests;
 
 public class GroupObject extends TestBase {
     private final String password;

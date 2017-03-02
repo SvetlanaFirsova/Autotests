@@ -80,10 +80,10 @@
                 <version>2.8.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/generalSuite.xml</suiteXmlFile>
-                        <!--<suiteXmlFile>src/test/resources/chromeSuite.xml</suiteXmlFile>-->
+                        <suiteXmlFile>src/com.examples.test/resources/generalSuite.xml</suiteXmlFile>
+                        <!--<suiteXmlFile>src/com.examples.test/resources/chromeSuite.xml</suiteXmlFile>-->
 
-                        <!--  <suiteXmlFile>src/test/resources/${suiteName}</suiteXmlFile>-->
+                        <!--  <suiteXmlFile>src/com.examples.test/resources/${suiteName}</suiteXmlFile>-->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
