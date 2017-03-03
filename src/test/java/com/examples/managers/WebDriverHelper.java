@@ -18,9 +18,11 @@ public class WebDriverHelper {
     private StringBuffer verificationErrors = new StringBuffer();
     public String dwsUrl;
     public String baseUrl;
+    private ApplicationManager manager;
 
-    public WebDriverHelper() {
 
+    public WebDriverHelper(ApplicationManager manager) {
+        this.manager = manager;
         System.setProperty("webdriver.chrome.driver", "src\\drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -28,6 +30,7 @@ public class WebDriverHelper {
         baseUrl = "http://www.svetlana.ixloo.com";
         dwsUrl = "http://www.svetlana.ixloo.com";
         waitForJSandJQueryToLoad();
+       //driver.get(baseUrl);
     }
 
     public void clickLoginButtonInDMS() {

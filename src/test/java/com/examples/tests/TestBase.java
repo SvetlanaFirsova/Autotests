@@ -2,8 +2,11 @@ package com.examples.tests;
 
 import com.examples.managers.ApplicationManager;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+
+import javax.swing.*;
 
 
 /**
@@ -15,15 +18,11 @@ public class TestBase {
 
 
 
-
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {
         app = new ApplicationManager();
         Thread.sleep(1000);
         driver =app.getWebDriverHelper().getDriver();
-
-
-
     }
 
     @AfterClass(alwaysRun = true)

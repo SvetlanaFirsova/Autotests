@@ -27,6 +27,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 2)
     public void jQueryVersion() throws Exception {
+
         app.getNavigationHelper().openSettingsPage();
         app.getGroupHelper().clickSettingsInManeMenu();
         app.getGroupHelper().clickWebsiteButton();
@@ -36,6 +37,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 3)
     public void homePage404() throws Exception {
+
         app.getNavigationHelper().openSettingsPage();
         app.getGroupHelper().clickSettingsInManeMenu();
         app.getGroupHelper().clickWebsiteButton();
@@ -48,6 +50,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 4)
     public void RedirectOnHomePage() throws Exception {
+
         app.getNavigationHelper().openIncorrectURL();
         app.getWebDriverHelper().waitForJSandJQueryToLoad();
         //Check Result URL = Home page
@@ -56,6 +59,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 5)
     public void HomeMAP2Deactivate() throws Exception {
+
         app.getNavigationHelper().openURLOfMAP2();
         app.getWebDriverHelper().waitForJSandJQueryToLoad();
         app.getGroupHelper().clickHomePageInMAP2();
@@ -68,6 +72,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 6)
     public void RedirectOnHomePageError() throws Exception {
+
         app.getNavigationHelper().openIncorrectURL();
         app.getWebDriverHelper().waitForJSandJQueryToLoad();
         //Check Result URL = page doen't work
@@ -76,6 +81,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 7)
     public void HomeMAP2Activate() throws Exception {
+
         app.getNavigationHelper().openURLOfMAP2();
         app.getWebDriverHelper().waitForJSandJQueryToLoad();
         app.getGroupHelper().clickHomePageInMAP2();
@@ -88,6 +94,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 8)
     public void InventoryPage404() throws Exception {
+
         app.getNavigationHelper().openSettingsPage();
         app.getGroupHelper().clickSettingsInManeMenu();
         app.getGroupHelper().clickWebsiteButton();
@@ -100,6 +107,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 9)
     public void RedirectOnInventoryPage() throws Exception {
+
         app.getNavigationHelper().openIncorrectURL();
         app.getWebDriverHelper().waitForJSandJQueryToLoad();
         Assert.assertEquals( app.getGroupHelper().getCurrentUrl(), (app.getWebDriverHelper().dwsUrl + "/test-inventory.html") );
@@ -107,6 +115,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 10)
     public void InventoryMAP2Deactivate() throws Exception {
+
         app.getNavigationHelper().openURLOfMAP2();
         app.getWebDriverHelper().waitForJSandJQueryToLoad();
         app.getGroupHelper().clickInventoryPageInMAP2();
@@ -119,6 +128,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 11)
     public void RedirectFromInventoryOnHomePage() throws Exception {
+
         app.getNavigationHelper().openIncorrectURL();
         app.getWebDriverHelper().waitForJSandJQueryToLoad();
         //Check Result URL = Home page
@@ -128,6 +138,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 12)
     public void HomeInvMAP2Deactivate() throws Exception {
+
         app.getNavigationHelper().openURLOfMAP2();
         app.getWebDriverHelper().waitForJSandJQueryToLoad();
         app.getGroupHelper().clickHomePageInMAP2();
@@ -140,6 +151,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 13)
     public void RedirectFromInventoryOnHomePageError() throws Exception {
+
         app.getNavigationHelper().openIncorrectURL();
         app.getWebDriverHelper().waitForJSandJQueryToLoad();
         //Check Result URL = page doen't work
@@ -148,6 +160,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 14)
     public void HomeFromInventoryMAP2Activate() throws Exception {
+
         app.getNavigationHelper().openURLOfMAP2();
         app.getWebDriverHelper().waitForJSandJQueryToLoad();
         app.getGroupHelper().clickHomePageInMAP2();
@@ -160,6 +173,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 15)
     public void InventoryMAP2Activate() throws Exception {
+
         app.getNavigationHelper().openURLOfMAP2();
         app.getWebDriverHelper().waitForJSandJQueryToLoad();
         app.getGroupHelper().clickInventoryPageInMAP2();
@@ -172,6 +186,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 16)
     public void On404Page404() throws Exception {
+
         app.getNavigationHelper().openSettingsPage();
         app.getGroupHelper().clickSettingsInManeMenu();
         app.getGroupHelper().clickWebsiteButton();
@@ -185,6 +200,7 @@ class NewThe404NotFound extends TestBase {
 
     @Test (priority = 17)
     public void RedirectOn404Page() throws Exception {
+
         app.getNavigationHelper().openIncorrectURL();
         app.getWebDriverHelper().waitForJSandJQueryToLoad();
         //Check Result URL = page not found
