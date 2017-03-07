@@ -20,7 +20,9 @@ public class TestBase {
 
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {
-        app = new ApplicationManager();
+
+        //class getInstance and singleton will be used for starting tests in several browsers at the same time
+        app = new ApplicationManager.getInstance();
         Thread.sleep(1000);
         driver =app.getWebDriverHelper().getDriver();
     }

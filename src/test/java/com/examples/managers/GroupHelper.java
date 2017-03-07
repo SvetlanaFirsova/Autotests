@@ -1,6 +1,7 @@
 package com.examples.managers;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 
@@ -115,5 +116,67 @@ public class GroupHelper extends HelperWithWebDriverBase {
         click(By.cssSelector(".big-module-item[href='/dms/settings/website']"));
     }
 
+    public void deleteCookie() {
+        driver.manage().deleteAllCookies();
+        manager.getWebDriverHelper().waitForJSandJQueryToLoad();
+    }
 
+    public void select10Vehicle() {
+        click(By.xpath("(//a[contains(text(),'Edit')])[13]"));
+        click(By.id("id_dms_vehicles_per_page"));
+        manager.getWebDriverHelper().waitForJSandJQueryToLoad();
+        click(By.cssSelector("option[value=\"10\"]"));
+        click(By.xpath("(//a[contains(text(),'Save')])[13]"));
+        manager.getWebDriverHelper().waitForJSandJQueryToLoad();
+    }
+
+    public void select200Vehicle() {
+        click(By.cssSelector("#tab1 > span"));
+        click(By.xpath("(//a[contains(text(),'Edit')])[13]"));
+        click(By.id("id_dms_vehicles_per_page"));
+        click(By.cssSelector("option[value=\"200\"]"));
+        click(By.xpath("(//a[contains(text(),'Save')])[13]"));
+        manager.getWebDriverHelper().waitForJSandJQueryToLoad();
+    }
+
+    public void select25Vehicle() {
+        click(By.xpath("(//a[contains(text(),'Edit')])[13]"));
+        manager.getWebDriverHelper().waitForJSandJQueryToLoad();
+        click(By.id("id_dms_vehicles_per_page"));
+        manager.getWebDriverHelper().waitForJSandJQueryToLoad();
+        click(By.cssSelector("option[value=\"25\"]"));
+        click(By.xpath("(//a[contains(text(),'Save')])[13]"));
+        manager.getWebDriverHelper().waitForJSandJQueryToLoad();
+    }
+
+    public void select100Vehicle() {
+        click(By.xpath("(//a[contains(text(),'Edit')])[13]"));
+        click(By.id("id_dms_vehicles_per_page"));
+        click(By.cssSelector("option[value=\"100\"]"));
+        click(By.xpath("(//a[contains(text(),'Save')])[13]"));
+        manager.getWebDriverHelper().waitForJSandJQueryToLoad();
+    }
+
+    public void select35Vehicle() {
+        click(By.xpath("(//a[contains(text(),'Edit')])[13]"));
+        click(By.id("id_dms_vehicles_per_page"));
+        click(By.cssSelector("option[value=\"35\"]"));
+        click(By.xpath("(//a[contains(text(),'Save')])[13]"));
+        manager.getWebDriverHelper().waitForJSandJQueryToLoad();
+    }
+
+    public void select50Vehicle() {
+        click(By.xpath("(//a[contains(text(),'Edit')])[13]"));
+        click(By.id("id_dms_vehicles_per_page"));
+        click(By.cssSelector("option[value=\"50\"]"));
+        click(By.xpath("(//a[contains(text(),'Save')])[13]"));
+        manager.getWebDriverHelper().waitForJSandJQueryToLoad();
+    }
+
+    public void scrollToInventorySelectBox() throws InterruptedException {
+        Actions actions = new Actions(driver);
+        actions.moveToElement(driver.findElement(By.xpath("//div[@id='pg_inventory-pager']//td[@dir='ltr']/select[@class='ui-pg-selbox']"))).perform();
+        manager.getWebDriverHelper().waitForJSandJQueryToLoad();
+        Thread.sleep(1000);
+    }
 }

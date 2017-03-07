@@ -1,10 +1,14 @@
 package com.examples.managers;
 
 
+import static com.sun.corba.se.spi.servicecontext.MaxStreamFormatVersionServiceContext.singleton;
+
 /**
  * Created by Firsova on 24.02.2017.
  */
 public class ApplicationManager {
+
+    public static ApplicationManager singleton;
 
     public WebDriverHelper webDriverHelper;
     public GroupHelper groupHelper;
@@ -12,11 +16,18 @@ public class ApplicationManager {
 
 
 
-    //public ApplicationManager() {
+
+    public static ApplicationManager getInstance() {
+        if (singleton == null) {
+
+        //class getInstance and singleton will be used for starting tests in several browsers at the same time
+        singleton = new ApplicationManager();
+        }
+        return singleton;
         //webDriverHelper = new WebDriverHelper();
         //navigationHelper = new NavigationHelper(this);
         //groupHelper = new GroupHelper(this);
-    //}
+    }
 
     public void stop() {
 
@@ -53,5 +64,9 @@ public class ApplicationManager {
             webDriverHelper = new WebDriverHelper(this);
         }
         return webDriverHelper;
+    }
+
+    //class getInstance will be used for starting tests in several browsers at the same time
+    public static class getInstance extends ApplicationManager {
     }
 }

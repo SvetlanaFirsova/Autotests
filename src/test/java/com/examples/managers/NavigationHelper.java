@@ -1,6 +1,7 @@
 package com.examples.managers;
 
 import com.examples.tests.GroupObject;
+import org.openqa.selenium.By;
 
 
 /**
@@ -20,6 +21,11 @@ public class NavigationHelper extends HelperWithWebDriverBase{
         manager.getWebDriverHelper().clickLoginButtonInDMS();
     }
 
+    public void logOutFromDms() {
+        click(By.cssSelector("span.out"));
+        manager.getWebDriverHelper().waitForJSandJQueryToLoad();
+    }
+
     public void openSettingsPage() {
         openURL(manager.getWebDriverHelper().baseUrl + "/dms/settings/");
     }
@@ -32,6 +38,9 @@ public class NavigationHelper extends HelperWithWebDriverBase{
         openURL(manager.getWebDriverHelper().dwsUrl + "/cars112233/");
     }
 
-
+    public void openInventoryPage() {
+        click(By.linkText("Inventory"));
+        manager.getWebDriverHelper().waitForJSandJQueryToLoad();
+    }
 
 }
