@@ -4,6 +4,7 @@ import com.examples.managers.ApplicationManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 
 import javax.swing.*;
@@ -30,5 +31,6 @@ public class TestBase {
     @AfterClass(alwaysRun = true)
     public void tearDown() throws Exception {
         app.stop();
+        //ApplicationManager.getInstance().stop();
     }
 }

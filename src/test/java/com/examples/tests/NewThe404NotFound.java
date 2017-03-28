@@ -33,6 +33,8 @@ class NewThe404NotFound extends TestBase {
         app.getWebDriverHelper().waitForJSandJQueryToLoad();
         app.getGroupHelper().clickWebsiteButton();
         app.getWebDriverHelper().waitForJSandJQueryToLoad();
+        app.getGroupHelper().clickGeneralTab();
+        app.getWebDriverHelper().waitForJSandJQueryToLoad();
         app.getGroupHelper().changeJQueryVersion("1.11.2");
         app.getWebDriverHelper().waitForJSandJQueryToLoad();
     }

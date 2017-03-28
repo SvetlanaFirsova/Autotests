@@ -26,6 +26,21 @@ public class GroupHelper extends HelperWithWebDriverBase {
         }
     }
 
+    public void turnDealerScoreAccess() {
+        if (findElement(By.cssSelector("#addon_dealer_rating")).getAttribute("checked") == null) {
+            manager.getWebDriverHelper().waitForJSandJQueryToLoad();
+            click(By.cssSelector("#addon_dealer_rating"));
+        }
+    }
+
+
+    public void turnDealerScoreAccessInWidget() {
+        if (findElement(By.cssSelector("#dws_dealer_rating")).getAttribute("checked") == null) {
+            manager.getWebDriverHelper().waitForJSandJQueryToLoad();
+            click(By.cssSelector("#dws_dealer_rating"));
+        }
+    }
+
     public void openToolsInAccess() {
         click(By.xpath("//div[@id='user_editor_access_rights']/div[8]/div/span"));
     }
@@ -55,6 +70,13 @@ public class GroupHelper extends HelperWithWebDriverBase {
         //Click Save jQuery 1.11.2
         click(By.xpath("(//a[contains(text(),'Save')])[16]"));
     }
+
+
+    public void clickGeneralTab() {
+
+        click(By.cssSelector("#tab1>span"));
+    }
+
 
     public void selectHomePageIn404NotFoundField() {
         new Select(findElement(By.name("redirect_404"))).selectByVisibleText("Home page");
@@ -179,4 +201,23 @@ public class GroupHelper extends HelperWithWebDriverBase {
         manager.getWebDriverHelper().waitForJSandJQueryToLoad();
         Thread.sleep(1000);
     }
+
+
+
+
+    public void openFromCalendar() {
+        click(By.cssSelector("#datefrom"));
+    }
+    public void selectDateFrom() {
+        click(By.cssSelector(".current-month.weekday.selected"));
+    }
+
+    public void openToCalendar() {
+        click(By.cssSelector("#dateto"));
+    }
+    public void selectDateTo() {
+        click(By.cssSelector(".current-month.weekday.today.selected"));
+    }
+
+
 }

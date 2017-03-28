@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
+import sun.plugin.javascript.navig.Link;
 
 
 /**
@@ -14,6 +15,7 @@ import org.openqa.selenium.interactions.Actions;
 
     protected ApplicationManager manager;
     protected WebDriver driver;
+    private By xpath;
 
     public HelperWithWebDriverBase(ApplicationManager manager) {
 
@@ -27,11 +29,11 @@ import org.openqa.selenium.interactions.Actions;
     }
 
 
-    protected WebElement findElement(By xpath) {
+    public WebElement findElement(By xpath) {
         return driver.findElement(xpath);
     }
 
-    protected void openURL(String s) {
+    public void openURL(String s) {
         driver.get(s);
     }
 
@@ -45,7 +47,13 @@ import org.openqa.selenium.interactions.Actions;
         dblclick.perform();
     }
 
-    protected void click(By linkText) {
+    public void doubleClickOnSiteRootUser() {
+        Actions action = new Actions(driver);
+        Action dblclick = action.doubleClick(findElement(By.cssSelector("#site_48>a"))).build();
+        dblclick.perform();
+    }
+
+    public void click(By linkText) {
         findElement(linkText).click();
     }
 }

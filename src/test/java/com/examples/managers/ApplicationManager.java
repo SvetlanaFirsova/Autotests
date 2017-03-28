@@ -8,7 +8,7 @@ import static com.sun.corba.se.spi.servicecontext.MaxStreamFormatVersionServiceC
  */
 public class ApplicationManager {
 
-    public static ApplicationManager singleton;
+    private static ApplicationManager singleton;
 
     public WebDriverHelper webDriverHelper;
     public GroupHelper groupHelper;
